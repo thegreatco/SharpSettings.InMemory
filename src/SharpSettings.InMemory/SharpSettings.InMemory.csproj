@@ -5,9 +5,15 @@
     <DebugType>portable</DebugType>
     <AssemblyName>SharpSettings.InMemory</AssemblyName>
     <RootNamespace>SharpSettings.InMemory</RootNamespace>
+
+    <Title>SharpSettings.InMemory</Title>
     <Authors>TheGreatCO</Authors>
     <Company>TheGreatCO</Company>
     <Description>Store your application settings in an InMemory collection and get notified when they get updated.</Description>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    
     <Version Condition=" '$(FILE_VERSION)' == '' ">1.0.0.0</Version>
     <Version Condition=" '$(FILE_VERSION)' != '' ">$(FILE_VERSION)</Version>
     <AssemblyVersion Condition=" '$(FILE_VERSION)' == '' ">1.0.0.0</AssemblyVersion>
