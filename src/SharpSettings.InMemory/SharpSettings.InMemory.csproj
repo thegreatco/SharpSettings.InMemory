@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.5</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <DebugType>portable</DebugType>
     <AssemblyName>SharpSettings.InMemory</AssemblyName>
     <RootNamespace>SharpSettings.InMemory</RootNamespace>
@@ -18,7 +18,8 @@
 
   <ItemGroup>
     <PackageReference Include="CompareNETObjects" Version="4.52.0" />
-    <PackageReference Include="SharpSettings" Version="1.0.16" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="SharpSettings" Version="1.1.0" />
   </ItemGroup>
 
 </Project>
